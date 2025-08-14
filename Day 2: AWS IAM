@@ -16,3 +16,36 @@ Next Step: I’ll be diving into MFA (Multi-Factor Authentication) & role-based 
 
 #AWS #CloudComputing #AWSIAM #CyberSecurity #LearningInPublic #TechJourney
 
+Step-to-step Solution of this task:
+
+# Day 2 – AWS IAM Setup
+
+## Steps Performed
+1. Created 3 IAM users (Admin, Developer, ReadOnly).
+2. Designed custom policies:
+   - ReadOnlyAccess for Developer
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "s3:GetObject",
+        "s3:ListBucket"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+
+3. Attached policies and tested access.
+
+## Testing
+- Admin user → Able to create S3 bucket ✅
+- Developer user → Access denied for bucket creation ❌
+
+## Key Learnings
+- Always follow Least Privilege Principle
+- Test policies before applying in production
+
+
