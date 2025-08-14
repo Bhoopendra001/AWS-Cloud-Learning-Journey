@@ -1,0 +1,18 @@
+🔐 AWS IAM – Secure Access Management | Day 2 of My AWS Cloud Journey ☁️
+
+Today, I explored AWS Identity and Access Management (IAM) – the service that helps control access to AWS resources securely.
+
+Key steps I worked on:
+✅ Created IAM users for different roles
+✅ Designed custom IAM policies to define permissions
+✅ Attached policies to users & roles
+✅ Tested access to AWS services
+✅ Followed the “Least Privilege Principle” to enhance security
+
+Why IAM is Important?
+Because without proper access control, even the most powerful cloud setup can be vulnerable. IAM ensures that the right people have the right access at the right time.
+
+Next Step: I’ll be diving into MFA (Multi-Factor Authentication) & role-based access for better security.
+
+#AWS #CloudComputing #AWSIAM #CyberSecurity #LearningInPublic #TechJourney
+
